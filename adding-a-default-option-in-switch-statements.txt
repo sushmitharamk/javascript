@@ -1,0 +1,27 @@
+function switchOfStuff(val) {
+  switch(val)
+  {
+    case "a" :
+    var answer = "apple";
+    break;
+    case "b":
+    var answer = "bird";
+    break;
+    case "c":
+    var answer = "cat";
+    break;
+    default:
+    var answer = "stuff";
+    break;
+  }
+  
+  
+  // Only change code below this line
+
+
+
+  // Only change code above this line
+  return answer;
+}
+
+switchOfStuff(1);
